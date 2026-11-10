@@ -1,5 +1,30 @@
+# Environment variables & secrets
 .env
-.venv/
-__pycache__/
-*.pyc
+.env.local
+.env.*.local
+.streamlit/secrets.toml
+
+# SQLite Database
 *.db
+*.sqlite
+*.sqlite3
+
+# Python build & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# IDE & OS settings
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
